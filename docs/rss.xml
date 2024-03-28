@@ -1,2 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://Meekdai.github.io/Gmeek-template</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://Meekdai.github.io/Gmeek-template</link></image><lastBuildDate>Thu, 14 Mar 2024 09:17:29 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>请接着之后的安装步骤执行</title><link>https://Meekdai.github.io/Gmeek-template/post/qing-jie-zhao-zhi-hou-de-an-zhuang-bu-zou-zhi-xing.html</link><description>如果你点击了`READM.md`的链接后，看到了这个页面，请继续之后的安装步骤执行。</description><guid isPermaLink="true">https://Meekdai.github.io/Gmeek-template/post/qing-jie-zhao-zhi-hou-de-an-zhuang-bu-zou-zhi-xing.html</guid><pubDate>Thu, 14 Mar 2024 09:15:10 +0000</pubDate></item><item><title>这是Gmeek模板仓库</title><link>https://Meekdai.github.io/Gmeek-template/post/zhe-shi-Gmeek-mo-ban-cang-ku.html</link><description>通过这个模板创建库，可以大大减少部署Gmeek博客的配置步骤。</description><guid isPermaLink="true">https://Meekdai.github.io/Gmeek-template/post/zhe-shi-Gmeek-mo-ban-cang-ku.html</guid><pubDate>Wed, 20 Dec 2023 07:42:24 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://axie674.github.io/effective-octo-dollop</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://axie674.github.io/effective-octo-dollop</link></image><lastBuildDate>Thu, 28 Mar 2024 04:18:19 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>lab</title><link>https://axie674.github.io/effective-octo-dollop/post/lab.html</link><description>SELECT&#13;
+NewRunsheetCode,&#13;
+Code,&#13;
+bas.MaterialCname,&#13;
+RequiredPackCount as '需求箱数',&#13;
+RequiredPartCount as '需求件数',&#13;
+ActualPackCount as '实际箱数',&#13;
+ActualPartCount as '实际件数',&#13;
+WorkNo,&#13;
+twd.CreateTime&#13;
+FROM&#13;
+	TWD_Runsheet twd&#13;
+	LEFT JOIN TWD_RunsheetDetail run ON twd.id= run.RunsheetID&#13;
+	LEFT JOIN BAS_MaterialBase bas ON run.MaterialID = bas.ID &#13;
+WHERE&#13;
+	Code = '4873364'&#13;
+	ORDER BY CreateTime。</description><guid isPermaLink="true">https://axie674.github.io/effective-octo-dollop/post/lab.html</guid><pubDate>Thu, 28 Mar 2024 04:17:54 +0000</pubDate></item></channel></rss>
