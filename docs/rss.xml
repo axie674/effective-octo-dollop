@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://axie674.github.io/effective-octo-dollop</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://axie674.github.io/effective-octo-dollop</link></image><lastBuildDate>Thu, 28 Mar 2024 04:36:07 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>SQL</title><link>https://axie674.github.io/effective-octo-dollop/post/SQL.html</link><description>NewRunsheetCode	Code	MaterialCname	需求箱数	需求件数	实际箱数	实际件数	WorkNo	CreateTime&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://axie674.github.io/effective-octo-dollop</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://axie674.github.io/effective-octo-dollop</link></image><lastBuildDate>Thu, 28 Mar 2024 16:19:18 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>SQL</title><link>https://axie674.github.io/effective-octo-dollop/post/SQL.html</link><description>NewRunsheetCode	Code	MaterialCname	需求箱数	需求件数	实际箱数	实际件数	WorkNo	CreateTime&#13;
 T71602208230002	4873364	40RH Bracket Recliner	1	130.000	0	0.000	WO202208180050	2022-08-23 21:28:06.523&#13;
 T71602209090007	4873364	40RH Bracket Recliner	1	130.000	0	0.000	WO202208260009	2022-09-09 10:57:54.003&#13;
 T71602209130008	4873364	40RH Bracket Recliner	1	130.000	0	0.000	WO202209130032	2022-09-13 11:51:26.863&#13;
@@ -469,20 +469,4 @@ T71602403230045	4873364	40RH Bracket Recliner	6	780.000	4	520.000	WO202403160393
 T71602403230065	4873364	40RH Bracket Recliner	2	260.000	0	0.000	WO202403230155	2024-03-23 15:57:39.357&#13;
 T71602403250022	4873364	40RH Bracket Recliner	6	780.000	4	520.000	WO202403230073	2024-03-25 05:53:46.673&#13;
 T71602403260005	4873364	40RH Bracket Recliner	6	780.000	6	780.000	WO202403230080	2024-03-26 05:51:50.917&#13;
-T71602403270006	4873364	40RH Bracket Recliner	6	780.000	4	520.000	WO202403230087	2024-03-27 05:51:34.037。</description><guid isPermaLink="true">https://axie674.github.io/effective-octo-dollop/post/SQL.html</guid><pubDate>Thu, 28 Mar 2024 04:35:45 +0000</pubDate></item><item><title>lab</title><link>https://axie674.github.io/effective-octo-dollop/post/lab.html</link><description>SELECT&#13;
-NewRunsheetCode,&#13;
-Code,&#13;
-bas.MaterialCname,&#13;
-RequiredPackCount as '需求箱数',&#13;
-RequiredPartCount as '需求件数',&#13;
-ActualPackCount as '实际箱数',&#13;
-ActualPartCount as '实际件数',&#13;
-WorkNo,&#13;
-twd.CreateTime&#13;
-FROM&#13;
-	TWD_Runsheet twd&#13;
-	LEFT JOIN TWD_RunsheetDetail run ON twd.id= run.RunsheetID&#13;
-	LEFT JOIN BAS_MaterialBase bas ON run.MaterialID = bas.ID &#13;
-WHERE&#13;
-	Code = '4873364'&#13;
-	ORDER BY CreateTime。</description><guid isPermaLink="true">https://axie674.github.io/effective-octo-dollop/post/lab.html</guid><pubDate>Thu, 28 Mar 2024 04:17:54 +0000</pubDate></item></channel></rss>
+T71602403270006	4873364	40RH Bracket Recliner	6	780.000	4	520.000	WO202403230087	2024-03-27 05:51:34.037。</description><guid isPermaLink="true">https://axie674.github.io/effective-octo-dollop/post/SQL.html</guid><pubDate>Thu, 28 Mar 2024 04:35:45 +0000</pubDate></item></channel></rss>
